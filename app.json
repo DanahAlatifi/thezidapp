@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "بوابة الربط",
+    "slug": "connector-portal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#EADDFA"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "sa.plustech.connector",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#EADDFA"
+      },
+      "package": "sa.plustech.connector",
+      "usesCleartextTraffic": true
+    },
+    "web": { "favicon": "./assets/favicon.png" },
+    "extra": { "eas": {} }
+  }
+}
